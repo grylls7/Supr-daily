@@ -60,9 +60,6 @@ function TaskboardItemCard({
                 <Dropdown
                     overlay={
                         <Menu>
-                            <Menu.Item icon={<EditOutlined />} onClick={() => onEdit(item)}>
-                                Edit
-                            </Menu.Item>
                             <DeleteMenuItem
                                 icon={<DeleteOutlined />}
                                 onClick={() =>
